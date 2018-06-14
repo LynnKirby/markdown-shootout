@@ -9,6 +9,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
     "lib": [
       "es2015"
     ]

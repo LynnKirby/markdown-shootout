@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "prepare": "cd executor && npm install && cd ../runners/javascript && npm install",
+    "lint": "eslint . --ignore-path .gitignore --ext .js,.ts",
+    "test": "npm run lint && cd executor && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-lynnk": "^0.2.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-typescript": "^0.12.0",
+    "typescript": "^2.9.2",
+    "typescript-eslint-parser": "^16.0.0"
+  }
+}

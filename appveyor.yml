@@ -1,0 +1,7 @@
+install: npm install
+test_script: npm test
+
+cache:
+- node_modules -> package-lock.json
+- executor/node_modules -> executor/package-lock.json
+- runners/javascript/node_modules -> runners/javascript/package-lock.json
