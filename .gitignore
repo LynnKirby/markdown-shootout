@@ -1,0 +1,8 @@
+node_modules/
+
+# Benchmark/testing artifacts
+*-v8.log
+output/
+
+# Dev stuff
+.vagrant/
