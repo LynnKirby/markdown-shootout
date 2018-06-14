@@ -15,7 +15,7 @@ module.exports = (run) => {
 
   const results = {
     times: bench.stats.sample,
-    document: run(sample)
+    document: run(sample),
   };
 
   console.log(JSON.stringify(results));
