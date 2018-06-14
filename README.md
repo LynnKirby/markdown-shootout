@@ -2,9 +2,7 @@
 
 > Benchmark and analysis of Markdown implementations.
 
-[![Build Status](https://travis-ci.com/LynnKirby/markdown-shootout.svg?branch=master)](https://travis-ci.com/LynnKirby/markdown-shootout)
-[![Build status](https://ci.appveyor.com/api/projects/status/f3yocfftbv77hmr3/branch/master?svg=true)](https://ci.appveyor.com/project/LynnKirby/markdown-shootout/branch/master)
-
+[![Linux Build Status](https://img.shields.io/travis/LynnKirby/markdown-shootout/master.svg?label=Linux)](https://travis-ci.com/LynnKirby/markdown-shootout) [![Windows Build Status](https://img.shields.io/appveyor/ci/LynnKirby/markdown-shootout/master.svg?label=Windows)](https://ci.appveyor.com/project/LynnKirby/markdown-shootout/branch/master)
 
 ## License
 
