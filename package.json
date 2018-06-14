@@ -3,14 +3,31 @@
   "scripts": {
     "prepare": "cd executor && npm install && cd ../runners/javascript && npm install",
     "lint": "eslint . --ignore-path .gitignore --ext .js,.ts",
-    "test": "npm run lint && cd executor && npm test"
+    "test": "npm run lint && cd executor && npm test",
+    "commitmsg": "commitlint -E GIT_PARAMS"
   },
   "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "@commitlint/travis-cli": "^7.0.0",
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.19.1",
     "eslint-config-lynnk": "^0.2.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-typescript": "^0.12.0",
+    "husky": "^0.14.3",
     "typescript": "^2.9.2",
     "typescript-eslint-parser": "^16.0.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
